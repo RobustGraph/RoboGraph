@@ -1,15 +1,17 @@
 # RoboGraph
 
-Implementation and evaluation of paper
-> __Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks__
+Implementation and evaluation of paper  
+> __Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks__  
+by Hongwei Jin*, Zhan Shi*, Ashish Peruri, Xinhua Zhang (*equal contribution)  
+Advances in Neural Information Processing Systems (NeurIPS), 2020.
 
 ## Installation
 
 The project requires python with version 3.7+, and use pip to install required packages
 
-* install pytorch from [link](https://pytorch.org/get-started/locally/)
-* install pytorch_geometric from [link](https://github.com/rusty1s/pytorch_geometric#installation)
-* install cplex and docplex
+* install `pytorch` from [link](https://pytorch.org/get-started/locally/)
+* install `pytorch_geometric` from [link](https://github.com/rusty1s/pytorch_geometric#installation)
+* install `cplex` and `docplex`
 
 For example, in the cpu only machine:
 
@@ -21,7 +23,7 @@ pip install torch-geometric
 pip install qpsolvers, sympy, nsopy
 ```
 
-After install cplex, install docplex:
+After install `cplex`, install `docplex`:
 
 ```shell
 conda install -c ibmdecisionoptimization docplex
